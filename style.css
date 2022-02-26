@@ -1,0 +1,160 @@
+* {
+     margin: 0px;
+     padding: 0px;
+}
+
+/* header section */
+header {
+     position: fixed;
+     top: 0px;
+     background-color: rgb(27, 27, 37);
+     height: 4rem;
+     width: 100%;
+}
+
+/* navigation bar */
+nav ul li {
+     list-style-type: none;
+     list-style-position: outside;
+     position: absolute;
+     top: 1rem;
+}
+
+nav ul li a {
+     text-decoration: none;
+     font-family: 'Merriweather Sans', sans-serif;
+}
+
+#logo {
+     padding: 0px;
+}
+
+#home {
+     margin-left: 200%;
+}
+
+#about {
+     margin-left: 400%;
+}
+
+.navElement {
+     font-size: 2rem;
+     color: white;
+}
+
+.navElement:hover {
+     border-bottom: 2px solid white;
+}
+/* end of navigation bar */
+
+/* home page */
+#homePage {
+     background-image: url(home.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 42rem;
+     text-align: center;
+}
+
+h3 {
+     color: black;
+     padding-top: 13rem;
+     font-size: 5rem;
+     font-family: 'Anton', sans-serif;
+}
+
+p {
+     font-size: 1rem;
+     font-family: 'Cabin', sans-serif;
+}
+
+#dealership {
+     display: inline-block;
+     text-decoration: none;
+     border: 2px solid black;
+     border-radius: 10px;
+     margin-top: 5%;
+     padding: 1% 2%;
+     color: black;
+     font-family: 'Kufam', sans-serif;
+}
+
+#dealership:hover {
+     color: white;
+     background-color: black;
+}
+/* end of home page */
+
+/* about section */
+#aboutSection {
+     margin: 10rem 5rem;
+     background-color: azure;
+}
+
+table {
+     width: 100%;
+}
+
+tr,
+td {
+     padding: 3rem 1rem;
+}
+
+/* heading of car */
+h4 {
+     font-size: 5rem;
+     font-family: 'Arimo', sans-serif;
+}
+
+/* car tagline */
+#tagLine {
+     padding-bottom: 1rem;
+     font-size: 2rem;
+     font-family: 'Inconsolata', monospace;
+}
+
+/* read more */
+#detail {
+     padding: 1rem 2rem;
+     text-decoration: none;
+     color: black;
+     border: 1px solid black;
+     font-family: 'Kufam', sans-serif;
+}
+
+#detail:hover {
+     background-color: black;
+     color: white;
+}
+
+#avantadarbackground {
+     background-image: url(Avantadar.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+#avantadar {
+     background: linear-gradient(to top left, red 50%, white 50%);
+     margin-bottom: 1rem;
+}
+
+#huracanBackground {
+     background-image: url(huracan.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+#huracan {
+     background: linear-gradient(to right, rgba(41, 51, 50, 255) 20%, white 20%);
+}
+
+#urusBackground {
+     background-image: url(urus.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+#urus {
+     background: linear-gradient(to top right, white 50%, rgba(220,224,225,255) 50%);
+}
